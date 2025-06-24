@@ -1,0 +1,12 @@
+[project]
+name = "make-docs-sprint-table"
+version = "0.1.0"
+description = "Create a table of Markdown documents and their titles as a starting point for a documentation sprint"
+readme = "README.md"
+authors = [
+    { name = "James C. Womack", email = "J.C.Womack@bristol.ac.uk" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.3.0",
+]
